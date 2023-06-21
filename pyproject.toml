@@ -8,7 +8,11 @@ packages = [{include = "etiqueta_expedicao"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pypdf = "^3.10.0"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.23.2"
 
 [build-system]
 requires = ["poetry-core"]
